@@ -1,5 +1,19 @@
 html
     head
         title= title
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        link(rel="stylesheet" href="public/styles.css")
+
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.0/es6-shim.min.js")
+        script(src="https://npmcdn.com/angular2@2.0.0-beta.14/es6/dev/src/testing/shims_for_IE.js")
+        script(src="https://code.angularjs.org/2.0.0-beta.14/angular2-polyfills.js")
+        script(src="https://code.angularjs.org/2.0.0-beta.14/Rx.umd.js")
+        script(src="https://code.angularjs.org/2.0.0-beta.14/angular2-all.umd.dev.js")
+
+        script(src='app/app.component.js')
+        script(src='app/main.js')
+
     body
         h1= message
+        all-bands.
+            Loading...
